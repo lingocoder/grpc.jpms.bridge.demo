@@ -10,7 +10,7 @@ The code from @mmichaelis' [*poc-grpc*](https://github.com/mmichaelis/poc-grpc) 
 
 The solution is an implementation of the [*Bridges to the class path*](https://openjdk.java.net/projects/jigsaw/spec/sotms/#bridges-to-the-class-path) approach discussed by Oracle's Java Platform Group's Lead Architect, Mark Reinhold in the OpenJDK project's [*State of the Module System*](https://openjdk.java.net/projects/jigsaw/spec/sotms/) document.
 
-The basic idea behind this solution can be summed up by Reinhold's advice: „If, however, multiple JAR files on the class path intentionally contain types in the same package then on the class path they must remain“.
+The basic idea behind this solution can be summed up by Reinhold's advice: „*If, however, multiple JAR files on the class path intentionally contain types in the same package then on the class path they must remain*“.
 
 This demo project was built with JDK 11. However, the general approach is applicable to JDK 9<sup>+</sup>.
 
