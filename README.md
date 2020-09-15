@@ -12,7 +12,7 @@ The solution is an implementation of the [*Bridges to the class path*](https://o
 
 The basic idea behind this solution can be summed up by Reinhold's advice: „*If, however, multiple JAR files on the class path intentionally contain types in the same package then on the class path they must remain*“.
 
-This demo project was built with JDK 11. However, the general approach is applicable to JDK 9<sup>+</sup>.
+This demo project was built with JDK 14 and tested with JDK 11. However, the general approach is applicable to JDK 9<sup>+</sup>.
 
 ## Steps to build and run the demo
 
